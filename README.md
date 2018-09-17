@@ -16,7 +16,8 @@ Usage (for Geekbench 4.3.0):
 ```
 chmod +x install.sh
 ./install.sh
-./Geekbench-4.3.0-Linux/runGeekbench.sh
+cd Geekbench-4.3.0-Linux
+./runGeekbench.sh
 ```
 
 If you want to install a different version of glibc/Geekbench, please change `GLIBC`/`GBench` in install.sh and, for the latter, don't forget your Geekbench binaries will be in a different directory so make the appropriate changes above.
