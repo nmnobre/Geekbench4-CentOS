@@ -24,5 +24,6 @@ mv usr/ libstdc++-4.8.5-28/
 
 cp Geekbench-$GBench-Linux/geekbench.plar glibc-$GLIBC/lib/geekbench.plar
 echo "../glibc-2.17/lib/ld-linux-x86-64.so.2 --library-path ../libstdc++-4.8.5-28/lib64:../glibc-2.17/lib:/usr/lib:/usr/lib64:/lib:/lib64 ./geekbench_x86_64" > Geekbench-$GBench-Linux/runGeekbench.sh
+chmod +x Geekbench-$GBench-Linux/runGeekbench.sh
 
 rm -rf Geekbench-$GBench-Linux.tar.gz glibc_install libstdc++-4.8.5-28.el7.x86_64.rpm
