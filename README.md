@@ -12,11 +12,11 @@ This is intended for users with outdated versions of the GNU C Library (glibc) a
 
 The script downloads Geekbench 4, the sources of glibc and the binaries of libstdc++ and installs them locally, i.e. on the current directory, without messing up the global environment of your current configuration. This also has the advantage of not requiring sudo privileges.
 
-Usage (for Geekbench 4.3.0):
+Usage (for Geekbench 4.3.3):
 ```
 chmod +x install.sh
 ./install.sh
-cd Geekbench-4.3.0-Linux
+cd Geekbench-4.3.3-Linux
 ./runGeekbench.sh
 ```
 
